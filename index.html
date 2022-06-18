@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, 
+  initial-scale=1.0"> 
+  <title>Score Keeper</title>
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+  <link rel="stylesheet" href="style.css"> 
+ </head>
+  
+ <body>
+  <div class="card-container">
+    <div class="image-container">
+      <img src="images/scorekeeper.png" alt="">
+    </div>
+        <h1><span id="p1Show">0</span> to <span id="p2Show">0</span></h1>
+        <div class="text-container">Use the buttons below to keep score</div>
+        <div class="max-points-container">  
+          <div class="dropdown-container"> <b>Playing To </b> 
+            <select name="" id="playTo">
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+            </select> 
+          </div> 
+
+        </div>   
+    <div class="footer">
+      <div class="button-container">
+        <button id="p1Button">+1 Player One</button>
+        <button id="p2Button">+1 Player Two</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+  </div>   
+    <!--Script-->
+    <script src="script.js"></script>
+  </body>
+</html>
